@@ -1,0 +1,27 @@
+#cuerpo{
+  background-color: rgba(165,149,190, 0.3);
+}
+#navbar_lol{
+  background-color: rgba(30,15,38, 1);
+}
+#intro{
+  /* background-color: rgba(223, 187, 177, 0.9); */
+  padding: 50px;
+}
+
+#titulo{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#encuesta{
+  color: white;
+  background-color: rgba(26, 51, 75, .8);
+  width: 50%;
+}
+#encuesta_ext{
+  background-image: url("https://cdn.pixabay.com/photo/2015/10/24/11/09/red-wine-1004255_960_720.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

@@ -2,9 +2,56 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Satisfacción del cliente</title>
+    <link rel="stylesheet" href="encuesta.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Fuck my ass</h1>
+    <body id="cuerpo">
+      <!-- navbar -->
+      <nav id="navbar_lol" class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="primicias.png" width="120" alt="">
+        </a>
+      </nav>
+      <!-- intro -->
+      <div id="intro" class="">
+        <div class="container">
+          <h1 id="titulo">Nos importa tu opinión</h1>
+          <p>Producido en las tierras del majestuoso Chimborazo y con las mejores cosechas  de  mora en la región, ofrece un sabor intenso y nostálgico que permite sentir el alma de nuestra hermosa tierra, y la historia detrás de ella. Su delicado sabor complementará esos inolvidables momentos.. "PRIMICIA" ¡Un vino a la altura!</p>
+        </div>
+      </div>
+      <!-- encuesta -->
+      <div id="encuesta_ext" class="">
+        <h1 id="titulo" style="color: white;">Encuesta</h1>
+        <div id="encuesta" class="container jumbotron">
+          <form>
+            <!-- vinos -->
+            <label for="customSwitch1">
+              <strong>¿Cuál/es de nuestros vinos has probado?</strong>
+            </label>
+              <!-- dulce -->
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Dulce</label>
+            </div>
+              <!-- semi-dulce -->
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customSwitch2">
+              <label class="custom-control-label" for="customSwitch2">Semi-Dulce</label>
+            </div>
+              <!-- seco -->
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customSwitch3">
+              <label class="custom-control-label" for="customSwitch3">Seco</label>
+            </div>
+            <!-- boton enviar -->
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </body>
+  </html>
   </body>
 </html>
